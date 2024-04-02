@@ -2,7 +2,6 @@ class Utils:
     def get_headers(token):
         headers = {
             'Accept': '*/*',
-            'Accept-Encoding': 'gzip, deflate, br, zstd',
             'Accept-Language': 'it-IT,it;q=0.9',
             'Authorization': token,
             'Content-Length': '0',
